@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.bimancarry.MainActivity">
+
+    <Button
+        android:id="@+id/btn_chicken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnChicken"
+        android:text="chicken"
+
+        />
+
+    <Button
+        android:id="@+id/btn_pizza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnPizza"
+        android:text="pizza"
+        android:layout_below="@id/btn_chicken"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_hambuger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnHambuger"
+        android:text="hambuger"
+        android:layout_below="@id/btn_pizza"
+        android:layout_alignParentStart="true" />
+
+
+
+
+</RelativeLayout>
